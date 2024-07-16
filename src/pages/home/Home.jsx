@@ -1,3 +1,4 @@
+import AboutMe from "../../component/homepageComponents/aboutMe/AboutMe";
 import Banner from "../../component/homepageComponents/banner/Banner";
 import Navbar from "../../sharedComponent/navbar/Navbar";
 
@@ -8,6 +9,7 @@ const Home = () => {
                 <Navbar/>
             </div>
             <Banner />
+            <AboutMe></AboutMe>
         </div>
     );
 };

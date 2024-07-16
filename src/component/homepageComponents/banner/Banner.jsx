@@ -18,9 +18,9 @@ const Banner = () => {
                             <Button btnText={'Resume'}></Button>
                         </div>
 
-                        <div className="mt-5 md:mt-0 border-4 border-white w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full">
-
-                        </div>
+                    
+                            <img className=" img mt-5 md:mt-0  w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full" src="./portfolio_img-removebg-preview.png" alt="Md Sopon Hossain" />
+                       
                     </div>
                 </div>
             </div>
