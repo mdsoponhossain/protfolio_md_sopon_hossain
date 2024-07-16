@@ -2,9 +2,9 @@
 const Navbar = () => {
     const navItems = <>
         <li><a href="#home">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#about-me">About Me</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#projects">Projects</a></li>
     </>
     return (
         <div className=" text-3xl max-w-[1280px] mx-auto">

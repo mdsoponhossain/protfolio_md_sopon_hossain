@@ -1,5 +1,6 @@
 import AboutMe from "../../component/homepageComponents/aboutMe/AboutMe";
 import Banner from "../../component/homepageComponents/banner/Banner";
+import MyProjects from "../../component/homepageComponents/banner/MyProjects";
 import Navbar from "../../sharedComponent/navbar/Navbar";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             </div>
             <Banner />
             <AboutMe></AboutMe>
+            <MyProjects></MyProjects>
         </div>
     );
 };

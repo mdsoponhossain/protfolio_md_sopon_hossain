@@ -2,7 +2,7 @@ import Button from "../../../sharedComponent/button/Button";
 
 const AboutMe = () => {
     return (
-        <div className="h-fit md:h-[800px] bg-black grid justify-center items-center">
+        <div id="about-me" className="h-fit md:h-[800px] bg-black grid justify-center items-center">
             <div className="p-2 md:flex  gap-5 max-w-[1280px] mx-auto border-4 border-white text-white justify-between items-center">
                 <img className="img mt-5 md:mt-0   h-[200px] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] rounded-full" src="./portfolio_img-removebg-preview.png" alt="Md Sopon Hossain" />
                 <div className="w-full md:w-[60%] ">
