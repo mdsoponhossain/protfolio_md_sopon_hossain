@@ -1,6 +1,6 @@
 import './skillCard.css'
 const SkillCard = ({skill}) => {
-    console.log(skill?.skill)
+    // console.log(skill?.skill)
     return (
         <div>
             <div className="card skill-card bg-white  shadow-xl rounded-md">

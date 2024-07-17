@@ -1,3 +1,4 @@
+import HeadingComponent from "../../../sharedComponent/headingComponent/HeadingComponent";
 import SkillCard from "../skillCard/SkillCard";
 
 const MySkills = () => {
@@ -52,8 +53,9 @@ const MySkills = () => {
         }
     ]
     return (
-        <div className="h-fit py-5 bg-black">
-            <div className="max-w-[1280px] mx-auto">
+        <div className="h-fit py-10 bg-black md:py-20 bg-opacity-70">
+            <HeadingComponent text={'My Skills'}></HeadingComponent>
+            <div className="max-w-[1280px] mx-auto mt-5 md:mt-10">
                 <div className="grid px-2 grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 lg:grid-cols-6 lg:gap-5">
                     {
                         mySkillsData?.map((skill, index) => <SkillCard key={index} skill={skill}></SkillCard>

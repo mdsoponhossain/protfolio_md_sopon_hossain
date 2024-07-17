@@ -1,9 +1,8 @@
 import './button.css'
-import { RiDownloadFill } from "react-icons/ri";
 const Button = ({ btnText}) => {
     return (
-        <button href="">
-            <span className='flex items-center gap-2'>{btnText}<RiDownloadFill/> </span>
+        <button className=''>
+            <span className='flex items-center gap-2 text-sm md:text-2xl'>{btnText}</span>
             <i></i>
             <i className="two"></i>
             <i id="three"></i>
