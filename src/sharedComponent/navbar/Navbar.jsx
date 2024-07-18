@@ -1,4 +1,4 @@
-
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 const Navbar = () => {
     const navItems = <>
         <li><a href="#home">Home</a></li>
@@ -43,7 +43,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className=" flex lg:hidden">Logo</a>
+                    <a className=" flex lg:hidden gap-2">Logo</a>
+                    <FaGithub className="lg:block hidden mr-2"></FaGithub>
+                    <FaLinkedinIn className="lg:block hidden ml-2"></FaLinkedinIn>
                 </div>
             </div>
         </div>
