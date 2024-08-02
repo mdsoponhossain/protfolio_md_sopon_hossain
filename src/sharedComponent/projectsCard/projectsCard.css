@@ -1,0 +1,29 @@
+ .imgContainer {
+     overflow: hidden;
+     height: 300px;
+ }
+
+ .imgContainer img {
+     transition: transform 10s ease-in-out;
+
+ }
+
+ .imgContainer:hover img {
+     transform: translateY(-3600px);
+     cursor: pointer;
+ }
+
+ .custom-btn{
+    padding: 10px 30px;
+    border: 1px solid white;
+    height: 50px;
+ }
+
+ .custom-btn:hover{
+    background: yellow;
+    color: black;
+ }
+
+ .card-container{
+    box-shadow: 0 0 15px black;
+ }
