@@ -20,7 +20,8 @@
  }
 
  .custom-btn:hover{
-    background: yellow;
+    background: var(--primaryColor);
+    cursor: pointer;
     color: black;
  }
 
