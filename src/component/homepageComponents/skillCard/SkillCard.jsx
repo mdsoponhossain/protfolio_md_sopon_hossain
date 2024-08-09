@@ -1,15 +1,15 @@
 import './skillCard.css'
 const SkillCard = ({skill}) => {
-    // console.log(skill?.skill)
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className="card skill-card bg-white  shadow-xl rounded-md">
                 <div className="card-body">
                     <div className="grid justify-center items-center">
-                        <img className="w-[80px] h-[80px]" src={skill?.img} alt="" />
+                        <img className="w-[80px] h-[80px]" src={skill?.img} alt="loading..." />
                     </div>
-                    <div className="border-2 border-black h-2">
-                        <div className={`h-full w-[${skill?.skill}%] bg-red-800`}></div>
+                    <h4 className='text-black' >{skill.name}</h4>
+                    <div className="border-2 border-black h-3 rounded-md">
+                        <div className={skill?.skill}></div>
                     </div>
                 </div>
             </div>
