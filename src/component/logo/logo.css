@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-*{
+#logoFont{
     font-family: var(--logoFont);
 }
+
+/* this google font doesn't work */
