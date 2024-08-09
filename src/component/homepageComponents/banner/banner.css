@@ -9,6 +9,5 @@
 }
 
 .img{
-    border: 5px solid yellow;
-    box-shadow: 0 0 35px yellow;
+    border: 5px solid var(--primaryColor);
 }
