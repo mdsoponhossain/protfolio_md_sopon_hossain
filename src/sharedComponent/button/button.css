@@ -1,7 +1,4 @@
-:root {
-    /* --clr: #1e9bff */
-    --clr: yellow
-}
+
 
 
 button {
@@ -19,9 +16,9 @@ button {
 
 button:hover {
     letter-spacing: .25rem;
-    background: var( --clr);
-    box-shadow: 0 0 35px var(--clr);
-    color: var(--clr);
+    background: var(--primaryColor);
+    box-shadow: 0 0 35px var(--primaryColor);
+    color: var(--primaryColor);
 }
 
 button::before{
