@@ -1,9 +1,10 @@
 import './projectsCard.css'
 const ProjectsCard = ({project}) => {
+	console.log(project?.translate)
 	return (
 		<div className="card bg-slate-800 p-2 md:p-5 lg:p-10 shadow-md rounded-md card-container">
 			<div className="imgContainer">
-				<img
+				<img className={project?.translate}
 					src={project?.image}
 					alt="img" />
 			</div>

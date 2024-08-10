@@ -3,6 +3,7 @@ import HeadingComponent from "../../../sharedComponent/headingComponent/HeadingC
 import { IoMdCall } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import "./contactMe.css"
 const ContactMe = () => {
     return (
         <div id="contact" className="h-fit bg-black py-10 text-white md:py-20 bg-opacity-70">
@@ -30,7 +31,7 @@ const ContactMe = () => {
                         </div>
                     </div>
                 </div>
-                <form noValidate="" className="space-y-6 ">
+                <form noValidate="" className="space-y-6 contact-me ">
                     <div>
                         <label htmlFor="name" className="text-sm">Full name</label>
                         <input id="name" type="text" placeholder="" className="w-full text-black p-3 rounded " />

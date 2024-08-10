@@ -4,14 +4,14 @@
  }
 
  .imgContainer img {
-     transition: transform 10s ease-in-out;
+     transition: transform 6s ease-in-out;
 
  }
 
- .imgContainer:hover img {
-     transform: translateY(-3600px);
+ /* .imgContainer:hover img {
+     transform: translateY(-1300px);
      cursor: pointer;
- }
+ } */
 
  .custom-btn{
     padding: 10px 30px;
