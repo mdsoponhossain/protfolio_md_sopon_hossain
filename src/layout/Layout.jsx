@@ -13,7 +13,7 @@ const Layout = () => {
 
     if (isLoading) {
         return (
-            <div className="h-[100vh] flex justify-center items-center">
+            <div className="h-[100vh] bg-black flex justify-center items-center">
                 <Logo logoContainerStyle={"flex items-center loading-animation"}></Logo>
             </div>
         )
