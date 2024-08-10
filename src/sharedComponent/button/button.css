@@ -1,7 +1,7 @@
 
 
 
-button {
+.button {
     padding: 10px 30px;
     background: white;
     letter-spacing: 0.1rem;
@@ -14,28 +14,28 @@ button {
     transition: 0.5s;
 }
 
-button:hover {
+.button:hover {
     letter-spacing: .25rem;
     background: var(--primaryColor);
     box-shadow: 0 0 35px var(--primaryColor);
     color: var(--primaryColor);
 }
 
-button::before{
+.button::before{
     position: absolute;
     content: '';
     inset: 2px;
     background: #000;
 }
 
-button span {
+.button span {
     position: relative;
     z-index: 1;
 }
 
 
 
-button .two::after{
+.button .two::after{
     position: absolute;
     content: '';
     bottom: 70%;
@@ -45,7 +45,7 @@ button .two::after{
     width: 10px;
     transition: 0.5s;
 }
-button:hover .two::after{
+.button:hover .two::after{
     position: absolute;
     content: '';
     bottom: 10%;
@@ -54,7 +54,7 @@ button:hover .two::after{
     height: 10px;
     width: 4px;
 }
-button .two::before{
+.button .two::before{
     position: absolute;
     content: '';
     bottom: 10%;
@@ -64,7 +64,7 @@ button .two::before{
     width: 10px;
     transition: 0.5s;
 }
-button:hover .two::before{
+.button:hover .two::before{
     position: absolute;
     content: '';
     bottom: 70%;

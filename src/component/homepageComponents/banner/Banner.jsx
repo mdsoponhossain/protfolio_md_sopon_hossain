@@ -34,12 +34,12 @@ const Banner = () => {
                                 />
                             </span>
                             {/* custom button */}
-                            <button onClick={()=>download_resume(resume_url)}>
+                            <div className='button w-fit' onClick={()=>download_resume(resume_url)}>
                                 <span className='flex items-center gap-2'>Resume <RiDownloadFill /> </span>
                                 <i></i>
                                 <i className="two"></i>
                                 <i id="three"></i>
-                            </button>
+                            </div>
                         </div>
 
 

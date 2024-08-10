@@ -4,7 +4,7 @@ import SkillCard from "../skillCard/SkillCard";
 const MySkills = () => {
     const mySkillsData = [
         {
-            img: './react-icon.png',
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0ydUswprJ2NL4vPb3M9fkCQVFAa1AD3Gzw&s',
             skill: 'h-full w-[80%] bg-green-600',
             name:'react'
         },

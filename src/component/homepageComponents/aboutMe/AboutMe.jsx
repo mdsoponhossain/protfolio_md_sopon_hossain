@@ -12,8 +12,9 @@ const AboutMe = () => {
                 <div className="w-full md:w-[60%] ">
                     <p className="text-justify mt-5 md:mt-0">I'm Md Sopon Hossain an enthusiastic MERN Stack developer. I've honed my skills in React.js, Express.js, MongoDB, and the MERN (MongoDB, Express.js, React.js, Node.js) stack, alongside mastering the essentials of JavaScript, HTML, and CSS. I've also dabbled in crafting responsive designs with Tailwind CSS and explored authentication using Firebase. As a junior developer, I approach coding with enthusiasm and a thirst for knowledge. I understand the importance of writing maintainable and scalable code and stay updated on the latest trends in web development. Beyond coding, you'll find me exploring emerging technologies, actively participating in the developer community, and soaking up knowledge like a sponge.</p>
                     <div className="flex gap-2 justify-between md:justify-start items-center lg:gap-10 mt-10 px-3 md:px-0">
-                        <Button btnText={'Github'}></Button>
-                        <Button btnText={'Linkedin'}></Button>
+                        <a target="_blank" href="https://github.com/mdsoponhossain"><Button btnText={'Github'}></Button></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/md-sopon-hossain-840a26252/"><Button btnText={'Linkedin'}></Button></a>
+                        
                     </div>
                 </div>
             </div>
