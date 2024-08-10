@@ -3,15 +3,8 @@
      height: 300px;
  }
 
- .imgContainer img {
-     transition: transform 6s ease-in-out;
 
- }
-
- /* .imgContainer:hover img {
-     transform: translateY(-1300px);
-     cursor: pointer;
- } */
+ 
 
  .custom-btn{
     padding: 10px 30px;
