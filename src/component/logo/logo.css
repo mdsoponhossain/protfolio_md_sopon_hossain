@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-#logoFont{
-    font-family: var(--logoFont);
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* this google font doesn't work */
+@keyframes themeAnimation {
+  from {
+    color: var(--primaryColor);
+  }
+
+  to {
+    color: var(--secondaryColor);
+  }
+
+}
+
+.theme{
+  animation: themeAnimation 2s ease-in-out 0s infinite alternate;
+}
