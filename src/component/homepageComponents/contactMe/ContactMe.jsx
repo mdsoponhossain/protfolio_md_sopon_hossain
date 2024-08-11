@@ -5,6 +5,28 @@ import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import "./contactMe.css"
 const ContactMe = () => {
+    //  sending email function
+    const handle_email = (e) => {
+        e.preventDefault();
+        const field = e.target;
+        const name = field.name.value;
+        const email = field.email.value;
+        const message = field.message.value;
+        console.log(name, email, message);
+        const data = { name, email, message };
+        // https://protfolio-server-md-sopon-hossain.vercel.app
+        // http://localhost:3000
+        fetch('https://protfolio-server-md-sopon-hossain.vercel.app/message', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        })
+    }
+
+
+
     return (
         <div id="contact" className="h-fit bg-black py-10 text-white md:py-20 bg-opacity-70">
             <HeadingComponent text={'Contact Me'}></HeadingComponent>
@@ -26,23 +48,23 @@ const ContactMe = () => {
                                 <IoLocationOutline className="text-sm md:text-2xl font-bold"></IoLocationOutline>
                                 <p>Dohar,Dhaka-1330, Bangladesh</p>
                             </div>
-                           
-                            
+
+
                         </div>
                     </div>
                 </div>
-                <form noValidate="" className="space-y-6 contact-me ">
+                <form onSubmit={handle_email} className="space-y-6 contact-me ">
                     <div>
                         <label htmlFor="name" className="text-sm">Full name</label>
-                        <input id="name" type="text" placeholder="" className="w-full text-black p-3 rounded " />
+                        <input id="name" name="name" type="text" placeholder="Type your name here" className="w-full text-black p-3 rounded " required />
                     </div>
                     <div>
                         <label htmlFor="email" className="text-sm">Email</label>
-                        <input id="email" type="email" className="w-full text-black p-3 rounded " />
+                        <input id="email" name="email" placeholder="Type your email here" type="email" className="w-full text-black p-3 rounded " required />
                     </div>
                     <div>
                         <label htmlFor="message" className="text-sm">Message</label>
-                        <textarea id="message" rows="3" className="w-full text-black p-3 rounded "></textarea>
+                        <textarea id="message" name="message" placeholder="Write your message here" rows="3" className="w-full text-black p-3 rounded " required ></textarea>
                     </div>
 
                     <div className="w-full grid justify-center">

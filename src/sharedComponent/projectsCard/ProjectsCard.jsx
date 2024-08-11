@@ -6,7 +6,7 @@ const ProjectsCard = ({ project }) => {
 			<div className="imgContainer">
 				<img className={project?.translate}
 					src={project?.image}
-					alt="img" />
+					alt="loading..." />
 			</div>
 			<div>
 				<div className="px-2 border border-black bg-slate-800 text-center py-5 text-white grid grid-cols-2 gap-2 md:gap-0 md:grid-cols-4 justify-between ">
