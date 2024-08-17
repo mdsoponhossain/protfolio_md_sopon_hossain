@@ -3,15 +3,8 @@
      height: 300px;
  }
 
- .imgContainer img {
-     transition: transform 10s ease-in-out;
 
- }
-
- .imgContainer:hover img {
-     transform: translateY(-3600px);
-     cursor: pointer;
- }
+ 
 
  .custom-btn{
     padding: 10px 30px;
@@ -20,7 +13,8 @@
  }
 
  .custom-btn:hover{
-    background: yellow;
+    background: var(--primaryColor);
+    cursor: pointer;
     color: black;
  }
 

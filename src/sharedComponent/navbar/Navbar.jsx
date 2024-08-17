@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import Logo from "../../component/logo/Logo";
 const Navbar = () => {
     const navItems = <>
         <li><a href="#home">Home</a></li>
@@ -33,9 +34,9 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <a className="lg:flex hidden">logo</a>
+                    <Logo logoContainerStyle={"lg:flex hidden items-center theme"}></Logo>
                 </div>
-                <div className="navbar-center hidden lg:flex ">
+                <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-2xl">
                         {
                             navItems
@@ -43,9 +44,16 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className=" flex lg:hidden gap-2">Logo</a>
-                    <FaGithub className="lg:block hidden mr-2"></FaGithub>
-                    <FaLinkedinIn className="lg:block hidden ml-2"></FaLinkedinIn>
+                    <Logo logoContainerStyle={"flex lg:hidden items-center theme theme"}></Logo>
+
+                    <a target="_blank" href="https://github.com/mdsoponhossain">
+                        <FaGithub className="lg:block hidden mr-2">
+                        </FaGithub>
+                    </a>
+
+                    <a target="_blank" href="https://www.linkedin.com/in/md-sopon-hossain-840a26252">
+                        <FaLinkedinIn className="lg:block hidden ml-2"></FaLinkedinIn>
+                    </a>
                 </div>
             </div>
         </div>

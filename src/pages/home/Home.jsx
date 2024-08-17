@@ -12,7 +12,7 @@ const Home = () => {
         <div className="relative bg-no-repeat bg-cover bg-fixed" id="home" style={{
             backgroundImage: "url(./portfolio_banner_img_1.webp)",
         }} >
-            <div className='absolute top-0 z-30 w-full text-white' >
+            <div className=' top-0 z-30 w-full text-white bg-black bg-opacity-85 fixed' >
                 <Navbar />
             </div>
             <Banner />

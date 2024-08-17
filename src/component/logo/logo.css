@@ -1,0 +1,20 @@
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes themeAnimation {
+  from {
+    color: var(--primaryColor);
+  }
+
+  to {
+    color: var(--secondaryColor);
+  }
+
+}
+
+.theme{
+  animation: themeAnimation 2s ease-in-out 0s infinite alternate;
+}
